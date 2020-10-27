@@ -12,33 +12,33 @@ DICES: Dynamic adaptive congestion control algorithm for SDN
 
 ### Prerequisite
 - Virtual Machine: VirtualBox https://www.virtualbox.org/
--- Version: 6.0
+  - Version: 6.0
 - Virtual Image: Preconfigured virtual machine image
--- Download: https://dropit.uni.lu/invitations/?share=92b452c1068f3a51d164&dl=0
+  - Download: https://dropit.uni.lu/invitations/?share=92b452c1068f3a51d164&dl=0
 - Note:
--- The virtual image is tested on a virtual machine equipped with three CPUs and 16GB of memory.
--- Experiment results obtained from this virtual setting will be different from the results described in our paper due to the limited processing power of a virtual machine. To reproduce our experiment results, please follow the "Developer Guide" section.
--- All artifacts are located under the ~/DICES directory.
+  - The virtual image is tested on a virtual machine equipped with three CPUs and 16GB of memory.
+  - Experiment results obtained from this virtual setting will be different from the results described in our paper due to the limited processing power of a virtual machine. To reproduce our experiment results, please follow the "Developer Guide" section.
+  - All artifacts are located under the ~/DICES directory.
 
 ## How to perform experiments with DICES?
 - Step 0: Login
--- Password: rocks  
+  - Password: rocks  
 - Step 1. Run SDN controllers
--- Double-click on the "Setup ONOS Cluster" icon
--- You will see "onos>" command line
+  - Double-click on the "Setup ONOS Cluster" icon
+  - You will see "onos>" command line
 - Step 2. Install and activate DICES
--- Double-click on the "Run DICES" icon
+  - Double-click on the "Run DICES" icon
 - Step 3. Build a network
--- Double-click on the "Build Network" icon
--- You will see "mininet>" command line
+  - Double-click on the "Build Network" icon
+  - You will see "mininet>" command line
 - Step 4. Generate traffic flows
 - Step 4.1. Run receivers
--- Double-click on the "Run Receivers" icon
+  - Double-click on the "Run Receivers" icon
 - Step 4.2. Run senders
--- Double-click on the "Run Senders" icon
--- You will see eight "Finished sending packets" messages
+  - Double-click on the "Run Senders" icon
+  - You will see eight "Finished sending packets" messages
 - Step 5. Analyze Results
--- Double-click on the "Analyze Packets" icon
+  - Double-click on the "Analyze Packets" icon
 
 
 ## [Developer Guide]
@@ -46,14 +46,14 @@ DICES: Dynamic adaptive congestion control algorithm for SDN
 ### Prerequisite
 The following software are required to execute DICES.
 - ONOS: https://onosproject.org/
--- Version: 1.15.0
--- Installation: https://wiki.onosproject.org/display/ONOS/Getting+the+ONOS+core+source+code+using+git+and+Gerrit
+  - Version: 1.15.0
+  - Installation: https://wiki.onosproject.org/display/ONOS/Getting+the+ONOS+core+source+code+using+git+and+Gerrit
 - Mininet: http://mininet.org/
--- Version: 2.3.0
--- Installation: http://mininet.org/download/
+  - Version: 2.3.0
+  - Installation: http://mininet.org/download/
 - D-ITG: http://www.grid.unina.it/software/ITG/
--- Version: 2.8.1
--- Installation: http://www.grid.unina.it/software/ITG/download.php
+  - Version: 2.8.1
+  - Installation: http://www.grid.unina.it/software/ITG/download.php
 
 ### How to perform experiments with DICES?
 - Step 1. Run ONOS

@@ -64,33 +64,33 @@ The following software are required to execute DICES.
 - Step 4.2. Run sender scripts
 
 ### File: DICES.zip
-Description: DICES is implemented as an application of ONOS.
-Instruction:
-- Compilation: Maven
-- Installation and activation: https://wiki.onosproject.org/display/ONOS/Managing+ONOS+applications
+- Description: DICES is implemented as an application of ONOS.  
+- Instruction:
+  - Compilation: Maven
+  - Installation and activation: https://wiki.onosproject.org/display/ONOS/Managing+ONOS+applications
 
 ### File: EXP1_scripts.zip
-Description: Synthetic networks and traffile profiles for EXP1 (Section 4.5)
-Mininet scripts (networks): net_rq1.py
-D-ITG scripts (traffic pofiles): receiver - run_rq1_recv.sh, sender - run_rq1_send_*.sh
+- Description: Synthetic networks and traffile profiles for EXP1 (Section 4.5). 
+- Mininet scripts (networks): net_rq1.py. 
+- D-ITG scripts (traffic pofiles): receiver - run_rq1_recv.sh, sender - run_rq1_send_*.sh
 
 ### File: EXP2_scripts.zip
-Description: Synthetic networks and traffic profiles for EXP2 (Section 4.5)
-Mininet scripts (networks): net_rq2.py
-D-ITG scripts (traffic pofiles): receiver - run_rq2_recv.sh, sender - run_rq2_send*.sh
+- Description: Synthetic networks and traffic profiles for EXP2 (Section 4.5). 
+- Mininet scripts (networks): net_rq2.py. 
+- D-ITG scripts (traffic pofiles): receiver - run_rq2_recv.sh, sender - run_rq2_send*.sh
 
 ### File: EXP3_scripts.zip
-Description: Emergency management system (EMS) - network and traffic profile (Section 4.5)
-Mininet scripts (networks): dmsSat.py
-D-ITG scripts (traffic pofiles): receiver - run_rq3_recv_*.sh, sender - run_rq3_send_*.sh
-ONOS scripts (topologies): dmsSat.json
-ONOS network configuration: https://wiki.onosproject.org/display/ONOS/The+Network+Configuration+Service
+- Description: Emergency management system (EMS) - network and traffic profile (Section 4.5). 
+- Mininet scripts (networks): dmsSat.py. 
+- D-ITG scripts (traffic pofiles): receiver - run_rq3_recv_*.sh, sender - run_rq3_send_*.sh. 
+- ONOS scripts (topologies): dmsSat.json. 
+- ONOS network configuration: https://wiki.onosproject.org/display/ONOS/The+Network+Configuration+Service
 
 ### File: OSPF.zip
-Description: OSPF-based data forwarding algorithm
-Instruction:
-- Compilation: Maven
-- Installation and activation: https://wiki.onosproject.org/display/ONOS/Managing+ONOS+applications
+- Description: OSPF-based data forwarding algorithm. 
+- Instruction:
+  - Compilation: Maven
+  - Installation and activation: https://wiki.onosproject.org/display/ONOS/Managing+ONOS+applications
 
 ### File: RQ1_results.zip, RQ2_results.zip, and RQ3_results.zip
-Description: Experiment results (Section 4.7)
+- Description: Experiment results (Section 4.7)

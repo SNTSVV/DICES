@@ -1,3 +1,5 @@
+                    Copyright © 2020 – 2020 University of Luxembourg
+                    
                     GNU GENERAL PUBLIC LICENSE
                     Version 2, June 1991
                     

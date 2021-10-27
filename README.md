@@ -94,3 +94,6 @@ The following software are required to execute DICES.
 
 ### File: RQ1_results.zip, RQ2_results.zip, and RQ3_results.zip
 - Description: Experiment results (Section 4.7)
+
+## Licensing
+This software is © University of Luxembourg and is licensed under the GPLv3 license. See COPYING.txt.
